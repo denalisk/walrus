@@ -30,3 +30,21 @@ img {
 .red-background {
   background-color: red;
 }
+
+.white-on-black {
+  color: white;
+  text-shadow:
+  1px 1px black,
+  1px -1px black,
+  -1px -1px black,
+  -1px 1px black;
+}
+
+.black-on-white {
+  color: black;
+  text-shadow:
+  1px 1px white,
+  1px -1px white,
+  -1px -1px white,
+  -1px 1px white;
+}

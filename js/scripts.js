@@ -23,4 +23,14 @@ $(document).ready(function() {
     $("body").addClass("red-background");
   });
 
+  $("button#WhiteOnBlack").click(function() {
+    $("body").removeClass("black-on-white");
+    $("body").addClass("white-on-black");
+  });
+
+  $("button#BlackOnWhite").click(function() {
+    $("body").removeClass("white-on-black");
+    $("body").addClass("black-on-white");
+  });
+
 });
