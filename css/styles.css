@@ -2,6 +2,10 @@
   display: none;
 }
 
+img {
+  width: 45%;
+}
+
 .clickable {
   cursor: pointer;
   color: #0088cc;
@@ -9,4 +13,20 @@
 
 .clickable:hover {
   text-decoration: underline;
+}
+
+.col-md-4 {
+  height: 1200px;
+}
+
+.green-background {
+  background-color: green;
+}
+
+.yellow-background {
+  background-color: yellow;
+}
+
+.red-background {
+  background-color: red;
 }
